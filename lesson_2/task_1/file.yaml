@@ -1,0 +1,9 @@
+integer: 42
+list:
+- item1
+- item2
+- item3
+nested_dict:
+  key1: 100
+  key2: 200
+  key3: 300
