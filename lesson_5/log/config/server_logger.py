@@ -5,7 +5,7 @@ from pathlib import Path
 
 server_formatter = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
     
-path = f'{Path(__file__).parents[1]}/logs/client.log'
+path = f'{Path(__file__).parents[1]}/logs/server.log'
 
 stream_handler = logging.StreamHandler(sys.stderr)
 stream_handler.setFormatter(server_formatter)
