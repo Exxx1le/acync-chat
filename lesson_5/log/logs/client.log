@@ -1,0 +1,7 @@
+2023-05-31 14:21:03,911 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-05-31 14:21:43,781 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-05-31 14:21:43,781 INFO server.py Клиент подключен: ('127.0.0.1', 55608)
+2023-05-31 14:21:43,781 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-05-31 14:23:32,366 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-05-31 14:23:32,366 INFO server.py Клиент подключен: ('127.0.0.1', 42194)
+2023-05-31 14:23:32,366 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
