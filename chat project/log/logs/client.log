@@ -16,3 +16,21 @@
 2023-06-04 20:15:42,595 INFO logs_decor.py Функция create_presence_message была вызвана c параметрами (), {}.Вызов из модуля __main__ 2023-06-04 20:15:42
 2023-06-04 20:15:42,595 INFO logs_decor.py Вызвана функция send_message
 2023-06-04 20:15:42,595 INFO logs_decor.py Функция send_message была вызвана c параметрами ('127.0.0.1', 7777, <function create_presence_message at 0x7f53bea860e0>), {}.Вызов из модуля __main__ 2023-06-04 20:15:42
+2023-06-07 11:00:12,484 INFO logs_decor.py Вызвана функция create_presence_message
+2023-06-07 11:00:12,485 INFO logs_decor.py Функция create_presence_message была вызвана c параметрами (), {}.Вызов из модуля __main__ 2023-06-07 11:00:12
+2023-06-07 11:00:12,486 INFO logs_decor.py Вызвана функция send_message
+2023-06-07 11:00:12,486 INFO logs_decor.py Функция send_message была вызвана c параметрами ('127.0.0.1', 7777, <function create_presence_message at 0x7fdfc878a0e0>), {}.Вызов из модуля __main__ 2023-06-07 11:00:12
+2023-06-07 11:28:46,577 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:31:44,811 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:33:15,004 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:40:27,744 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:42:30,776 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:44:34,334 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:45:40,716 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:47:23,394 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:50:59,718 INFO logs_decor.py Была вызвана функция create_presence_message c параметрами (), {} в 2023-06-07 11:50:59 Вызов из модуля __main__. Вызов из функции create_presence_message().Вызов из функции <module>
+2023-06-07 11:50:59,718 INFO logs_decor.py Была вызвана функция send_message c параметрами ('127.0.0.1', 7777, {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}), {} в 2023-06-07 11:50:59 Вызов из модуля __main__. Вызов из функции presence_message).Вызов из функции <module>
+2023-06-07 11:50:59,719 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-07 11:52:31,178 INFO logs_decor.py Была вызвана функция create_presence_message c параметрами (), {} в 2023-06-07 11:52:31 Вызов из модуля __main__. Вызов из функции create_presence_message().Вызов из функции <module>
+2023-06-07 11:52:31,178 INFO logs_decor.py Была вызвана функция send_message c параметрами ('127.0.0.1', 7777, {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}), {} в 2023-06-07 11:52:31 Вызов из модуля __main__. Вызов из функции presence_message).Вызов из функции <module>
+2023-06-07 11:52:31,179 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}

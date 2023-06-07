@@ -1,6 +1,35 @@
-2023-06-04 20:08:42,603 INFO server.py Сервер стартовал на 0.0.0.0:7777
-2023-06-04 20:10:18,400 INFO server.py Сервер стартовал на 0.0.0.0:7777
-2023-06-04 20:10:39,531 INFO server.py Клиент подключен: ('127.0.0.1', 38508)
-2023-06-04 20:10:39,531 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
-2023-06-04 20:13:38,180 INFO server.py Сервер стартовал на 0.0.0.0:7777
-2023-06-04 20:15:34,940 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 10:59:32,348 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:28:41,907 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:28:46,577 INFO server.py Клиент подключен: ('127.0.0.1', 49906)
+2023-06-07 11:28:46,577 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:31:40,544 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:31:44,811 INFO server.py Клиент подключен: ('127.0.0.1', 44926)
+2023-06-07 11:31:44,811 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:33:11,021 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:33:15,003 INFO server.py Клиент подключен: ('127.0.0.1', 34088)
+2023-06-07 11:33:15,004 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:36:55,220 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:40:24,358 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:40:27,743 INFO server.py Клиент подключен: ('127.0.0.1', 58346)
+2023-06-07 11:40:27,744 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:42:26,512 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:42:30,776 INFO server.py Клиент подключен: ('127.0.0.1', 49868)
+2023-06-07 11:42:30,777 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:44:27,332 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:44:34,334 INFO server.py Клиент подключен: ('127.0.0.1', 54328)
+2023-06-07 11:44:34,335 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:45:40,716 INFO server.py Клиент подключен: ('127.0.0.1', 52972)
+2023-06-07 11:45:40,717 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:47:17,592 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:47:23,394 INFO server.py Клиент подключен: ('127.0.0.1', 57282)
+2023-06-07 11:47:23,394 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:50:39,352 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:50:59,719 INFO server.py Клиент подключен: ('127.0.0.1', 59310)
+2023-06-07 11:50:59,719 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}
+2023-06-07 11:51:44,712 INFO logs_decor.py Была вызвана функция start_server c параметрами ('0.0.0.0', 7777), {} в 2023-06-07 11:51:44 Вызов из модуля __main__. Вызов из функции server_port).Вызов из функции <module>
+2023-06-07 11:51:45,821 INFO logs_decor.py Была вызвана функция start_server c параметрами ('0.0.0.0', 7777), {} в 2023-06-07 11:51:45 Вызов из модуля __main__. Вызов из функции server_port).Вызов из функции <module>
+2023-06-07 11:52:27,189 INFO logs_decor.py Была вызвана функция start_server c параметрами ('0.0.0.0', 7777), {} в 2023-06-07 11:52:27 Вызов из модуля __main__. Вызов из функции server_port).Вызов из функции <module>
+2023-06-07 11:52:27,190 INFO server.py Сервер стартовал на 0.0.0.0:7777
+2023-06-07 11:52:31,178 INFO server.py Клиент подключен: ('127.0.0.1', 58192)
+2023-06-07 11:52:31,178 INFO logs_decor.py Была вызвана функция handle_client c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58192)>,), {} в 2023-06-07 11:52:31 Вызов из модуля __main__. Вызов из функции server_port).Вызов из функции start_server
+2023-06-07 11:52:31,179 DEBUG server.py Получено сообщение: {"action": "presence", "type": "status", "user": {"account_name": "my_username", "status": "Online"}}

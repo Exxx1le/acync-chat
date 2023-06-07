@@ -25,8 +25,6 @@ def send_message(server_address, server_port, message):
         client_socket.send(json.dumps(message).encode())
         logger.info(f"Отправлено сообщение: {message}")
         response = client_socket.recv(1024).decode()
-        # print("Ответ сервера:", response)
-        logger.info("Ответ сервера:", response)
         client_socket.close()
     except ConnectionRefusedError as e:
         logger.error("В соединеннии отказано", e)
