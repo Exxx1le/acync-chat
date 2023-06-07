@@ -1,0 +1,18 @@
+2023-05-31 15:40:23,876 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-04 20:10:39,530 INFO logs_decor.py Вызвана функция create_presence_message
+2023-06-04 20:10:39,530 INFO logs_decor.py Функция create_presence_message была вызвана c параметрами (), {}.Вызов из модуля __main__ 2023-06-04 20:10:39
+2023-06-04 20:10:39,531 INFO logs_decor.py Вызвана функция send_message
+2023-06-04 20:10:39,531 INFO logs_decor.py Функция send_message была вызвана c параметрами ('127.0.0.1', 7777, {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}), {}.Вызов из модуля __main__ 2023-06-04 20:10:39
+2023-06-04 20:10:39,531 INFO client.py Отправлено сообщение: {'action': 'presence', 'type': 'status', 'user': {'account_name': 'my_username', 'status': 'Online'}}
+2023-06-04 20:11:34,767 INFO logs_decor.py Вызвана функция create_presence_message
+2023-06-04 20:11:34,767 INFO logs_decor.py Функция create_presence_message была вызвана c параметрами (), {}.Вызов из модуля __main__ 2023-06-04 20:11:34
+2023-06-04 20:11:34,767 INFO logs_decor.py Вызвана функция send_message
+2023-06-04 20:11:34,767 INFO logs_decor.py Функция send_message была вызвана c параметрами ('127.0.0.1', 7777, <function create_presence_message at 0x7fa9ac58a0e0>), {}.Вызов из модуля __main__ 2023-06-04 20:11:34
+2023-06-04 20:13:48,906 INFO logs_decor.py Вызвана функция create_presence_message
+2023-06-04 20:13:48,906 INFO logs_decor.py Функция create_presence_message была вызвана c параметрами (), {}.Вызов из модуля __main__ 2023-06-04 20:13:48
+2023-06-04 20:13:48,906 INFO logs_decor.py Вызвана функция send_message
+2023-06-04 20:13:48,906 INFO logs_decor.py Функция send_message была вызвана c параметрами ('127.0.0.1', 7777, <function create_presence_message at 0x7f7eb80860e0>), {}.Вызов из модуля __main__ 2023-06-04 20:13:48
+2023-06-04 20:15:42,595 INFO logs_decor.py Вызвана функция create_presence_message
+2023-06-04 20:15:42,595 INFO logs_decor.py Функция create_presence_message была вызвана c параметрами (), {}.Вызов из модуля __main__ 2023-06-04 20:15:42
+2023-06-04 20:15:42,595 INFO logs_decor.py Вызвана функция send_message
+2023-06-04 20:15:42,595 INFO logs_decor.py Функция send_message была вызвана c параметрами ('127.0.0.1', 7777, <function create_presence_message at 0x7f53bea860e0>), {}.Вызов из модуля __main__ 2023-06-04 20:15:42
