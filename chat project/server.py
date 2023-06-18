@@ -22,6 +22,7 @@ from variables import (
 from log.config import server_logger
 from log.logs_decor import log
 from metaclasses import ServerVerifier
+from descriptor import PortChecker
 
 logger = server_logger.logger
 
@@ -51,18 +52,12 @@ def arg_parser():
     namespace = parser.parse_args(sys.argv[1:])
     listen_address = namespace.a
     listen_port = namespace.p
-
-    if not 1023 < listen_port < 65536:
-        logger.critical(
-            f"Попытка запуска сервера с указанием неподходящего порта {listen_port}. "
-            f"Допустимы адреса с 1024 до 65535."
-        )
-        sys.exit(1)
-
     return listen_address, listen_port
 
 
 class Server(metaclass=ServerVerifier):
+    port = PortChecker()
+
     def __init__(self, listen_address, listen_port):
         self.addr = listen_address
         self.port = listen_port
