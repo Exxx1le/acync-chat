@@ -1,0 +1,11 @@
+2023-06-17 18:09:13,974 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-06-17 18:09:13 Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-17 18:09:13,980 INFO server.py Запущен сервер, порт для подключений: 7777 ,адрес с которого принимаются подключения: .
+2023-06-17 18:09:53,183 INFO server.py Установлено соедение с ПК ('127.0.0.1', 36668)
+2023-06-17 18:09:53,686 INFO logs_decor.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36668)>,), {} в 2023-06-17 18:09:53 Вызов из модуля __main__. Вызов из функции main().Вызов из функции run_server
+2023-06-17 18:09:53,688 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1687014593.1834583, 'user': {'account_name': 'asdf'}}
+2023-06-17 18:09:53,690 INFO logs_decor.py Была вызвана функция send_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36668)>, {'response': 200}), {} в 2023-06-17 18:09:53 Вызов из модуля __main__. Вызов из функции main().Вызов из функции process_client_message
+2023-06-17 18:10:09,722 INFO logs_decor.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36668)>,), {} в 2023-06-17 18:10:09 Вызов из модуля __main__. Вызов из функции main().Вызов из функции run_server
+2023-06-17 18:10:09,723 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'asdf', 'to': 'hello', 'time': 1687014609.6410003, 'mess_text': 'hello'}
+2023-06-17 18:10:09,727 ERROR server.py Пользователь hello не зарегистрирован на сервере, отправка сообщения невозможна.
+2023-06-17 18:12:19,466 INFO logs_decor.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36668)>,), {} в 2023-06-17 18:12:19 Вызов из модуля __main__. Вызов из функции main().Вызов из функции run_server
+2023-06-17 18:12:19,466 INFO server.py Клиент ('127.0.0.1', 36668) отключился от сервера.
