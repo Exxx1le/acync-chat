@@ -23,6 +23,7 @@ from log.config import server_logger
 from log.logs_decor import log
 from metaclasses import ServerVerifier
 from descriptor import PortChecker
+from server_db import ServerDataBase
 
 logger = server_logger.logger
 
@@ -58,9 +59,10 @@ def arg_parser():
 class Server(metaclass=ServerVerifier):
     port = PortChecker()
 
-    def __init__(self, listen_address, listen_port):
+    def __init__(self, listen_address, listen_port, database):
         self.addr = listen_address
         self.port = listen_port
+        self.database = database
 
         self.clients = []
         self.messages = []
@@ -149,6 +151,10 @@ class Server(metaclass=ServerVerifier):
         ):
             if message[USER][ACCOUNT_NAME] not in self.names.keys():
                 self.names[message[USER][ACCOUNT_NAME]] = client
+                client_ip, client_port = client.getpeername()
+                self.database.user_login(
+                    message[USER][ACCOUNT_NAME], client_ip, client_port
+                )
                 send_message(client, RESPONSE_200)
             else:
                 response = RESPONSE_400
@@ -168,6 +174,7 @@ class Server(metaclass=ServerVerifier):
             self.messages.append(message)
             return
         elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message:
+            self.database.user_logout(message[ACCOUNT_NAME])
             self.clients.remove(self.names[ACCOUNT_NAME])
             self.names[ACCOUNT_NAME].close()
             del self.names[ACCOUNT_NAME]
@@ -181,7 +188,8 @@ class Server(metaclass=ServerVerifier):
 
 def main():
     listen_address, listen_port = arg_parser()
-    server = Server(listen_address, listen_port)
+    database = ServerDataBase()
+    server = Server(listen_address, listen_port, database)
     server.run_server()
 
 
