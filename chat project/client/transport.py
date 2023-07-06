@@ -17,11 +17,12 @@ socket_lock = threading.Lock()
 
 def get_message(client):
     encoded_response = client.recv(1024)
-    if isinstance(encoded_response, bytes):
-        json_response = encoded_response.decode("utf-8")
-        response = json.loads(json_response)
-        if isinstance(response, dict):
-            return response
+    json_response = encoded_response.decode("utf-8")
+    response = json.loads(json_response)
+    if isinstance(response, dict):
+        return response
+    else:
+        raise TypeError
 
 
 def send_message(sock, message):
