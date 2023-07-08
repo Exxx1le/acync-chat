@@ -20462,3 +20462,98 @@ hello
 2023-07-06 18:05:33,522 DEBUG transport.py Потеряно соединение с сервером.
 2023-07-06 18:05:34,017 DEBUG transport.py Транспорт завершает работу.
 2023-07-06 18:05:34,415 DEBUG transport.py Потеряно соединение с сервером.
+2023-07-06 18:46:08,158 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-06 18:46:08 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-06 18:46:26,383 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-06 18:46:26 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-06 18:46:40,533 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-06 18:46:40 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-06 18:46:49,874 INFO client1.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: kljsadf
+2023-07-06 18:46:50,942 INFO transport.py Попытка подключения №1
+2023-07-06 18:46:50,943 DEBUG transport.py Установлено соединение с сервером
+2023-07-06 18:46:50,943 DEBUG transport.py Сформировано presence сообщение для пользователя kljsadf
+2023-07-06 18:46:51,525 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 18:46:51,525 INFO transport.py Соединение с сервером успешно установлено.
+2023-07-06 18:46:51,525 DEBUG transport.py Запрос списка известных пользователей kljsadf
+2023-07-06 18:46:52,567 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2023-07-06 18:46:52,567 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1688658412.5678642, 'user': 'kljsadf'}
+2023-07-06 18:46:53,049 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2023-07-06 18:46:53,050 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2023-07-06 18:46:54,665 INFO client1.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: asdfasdf
+2023-07-06 18:46:55,784 INFO transport.py Попытка подключения №1
+2023-07-06 18:46:55,786 DEBUG transport.py Установлено соединение с сервером
+2023-07-06 18:46:55,786 DEBUG transport.py Сформировано presence сообщение для пользователя asdfasdf
+2023-07-06 18:46:56,317 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 18:46:56,317 INFO transport.py Соединение с сервером успешно установлено.
+2023-07-06 18:46:56,317 DEBUG transport.py Запрос списка известных пользователей asdfasdf
+2023-07-06 18:46:57,451 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2023-07-06 18:46:57,451 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1688658417.4512646, 'user': 'asdfasdf'}
+2023-07-06 18:46:57,850 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2023-07-06 18:46:57,851 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2023-07-06 18:47:06,181 DEBUG transport.py Запрос списка известных пользователей kljsadf
+2023-07-06 18:47:07,269 DEBUG add_contact.py Обновление списка пользователей с сервера выполнено
+2023-07-06 18:47:15,043 DEBUG transport.py Создание контакта asdfasdf
+2023-07-06 18:47:15,446 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 18:47:15,754 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x000001E18A91B490>
+2023-07-06 18:47:27,321 DEBUG transport.py Создание контакта kljsadf
+2023-07-06 18:47:27,955 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 18:47:28,255 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x00000230C866B1C0>
+2023-07-06 18:47:44,329 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'kljsadf', 'to': 'asdfasdf', 'time': 1688658464.3292503, 'mess_text': 'приветик!'}
+2023-07-06 18:47:46,089 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'kljsadf', 'to': 'asdfasdf', 'time': 1688658464.3292503, 'mess_text': 'приветик!'}
+2023-07-06 18:47:46,089 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'kljsadf', 'to': 'asdfasdf', 'time': 1688658464.3292503, 'mess_text': 'приветик!'}
+2023-07-06 18:47:46,090 DEBUG transport.py Получено сообщение от пользователя kljsadf:приветик!
+2023-07-06 18:48:06,199 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'asdfasdf', 'to': 'kljsadf', 'time': 1688658486.1996298, 'mess_text': 'ну приветик)'}
+2023-07-06 18:48:07,761 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'asdfasdf', 'to': 'kljsadf', 'time': 1688658486.1996298, 'mess_text': 'ну приветик)'}
+2023-07-06 18:48:07,761 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'asdfasdf', 'to': 'kljsadf', 'time': 1688658486.1996298, 'mess_text': 'ну приветик)'}
+2023-07-06 18:48:07,761 DEBUG transport.py Получено сообщение от пользователя asdfasdf:ну приветик)
+2023-07-06 18:48:20,026 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'kljsadf', 'to': 'asdfasdf', 'time': 1688658500.0263708, 'mess_text': 'ну ок, пока!'}
+2023-07-06 18:48:21,748 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'kljsadf', 'to': 'asdfasdf', 'time': 1688658500.0263708, 'mess_text': 'ну ок, пока!'}
+2023-07-06 18:48:21,749 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'kljsadf', 'to': 'asdfasdf', 'time': 1688658500.0263708, 'mess_text': 'ну ок, пока!'}
+2023-07-06 18:48:21,749 DEBUG transport.py Получено сообщение от пользователя kljsadf:ну ок, пока!
+2023-07-06 18:48:28,105 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'asdfasdf', 'to': 'kljsadf', 'time': 1688658508.1054134, 'mess_text': 'неееет!"!!'}
+2023-07-06 18:48:29,644 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'asdfasdf', 'to': 'kljsadf', 'time': 1688658508.1054134, 'mess_text': 'неееет!"!!'}
+2023-07-06 18:48:29,644 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'asdfasdf', 'to': 'kljsadf', 'time': 1688658508.1054134, 'mess_text': 'неееет!"!!'}
+2023-07-06 18:48:29,645 DEBUG transport.py Получено сообщение от пользователя asdfasdf:неееет!"!!
+2023-07-06 18:49:48,945 DEBUG transport.py Транспорт завершает работу.
+2023-07-06 18:49:49,757 DEBUG transport.py Транспорт завершает работу.
+2023-07-06 18:49:49,920 DEBUG transport.py Потеряно соединение с сервером.
+2023-07-06 18:49:50,597 DEBUG transport.py Потеряно соединение с сервером.
+2023-07-08 20:43:45,166 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-08 20:43:45 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-08 20:43:45,172 DEBUG client1.py Args loaded
+2023-07-08 20:46:53,354 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-08 20:46:53 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-08 20:46:53,355 DEBUG client1.py Args loaded
+2023-07-08 20:47:53,361 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-08 20:47:53 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-08 20:47:53,362 DEBUG client1.py Args loaded
+2023-07-08 20:48:28,337 DEBUG client1.py Using USERNAME = hello, PASSWD = 123.
+2023-07-08 20:48:28,337 INFO client1.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: hello
+2023-07-08 20:48:28,780 DEBUG client1.py Keys sucsessfully loaded.
+2023-07-08 20:48:29,915 INFO transport.py Попытка подключения №1
+2023-07-08 20:48:29,916 DEBUG transport.py Connection established.
+2023-07-08 20:48:29,916 DEBUG transport.py Starting auth dialog.
+2023-07-08 20:48:29,920 DEBUG transport.py Passwd hash ready: b'40541eeb1e4c06144801d1c426c0aa2dcc112d9c4ca81b6ae9bf2ca48bd4539b759b189e3bd81ab4a54c73a3f7db5526b8a3782f4afff64260582ce625eaf731'
+2023-07-08 20:48:29,921 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1688838509.9214554, 'user': {'account_name': 'hello', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmxBbvTajDrzPhjhXK0/\nA0ldfH1AfpXeAyCNkrJb6iImjrZsk7Vruo4cw8F/GneqyMzIgSxYO3Z76ZrRTVXn\nXzKtNhZakc+sQYd+FdkK0Rt33myiKR2HnsdVFQzA6vFEk+EL4dr5dHw60ILSISER\n1C5Qj4Qs5rZCC5UtZczR7eha6HL9mZuZ6O+CbEI0iB3TkVKLKVI2zxULZ4j7S9VU\nK7AjjWPjkWR67NO8LjIr3ao8LQQcwJ1wYLBnHDqRnOjfmkfZvXl6BBFUDh+7ZBx9\n+z1yIFgzhr6p/oxfwf7TPoG0yzsEg2mb3ZK+19mhSk5mjyfwgV6U5TitvOOlZehK\n6wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-08 20:48:34,921 DEBUG transport.py Connection error.
+Traceback (most recent call last):
+  File "D:\GeekBrains\Асинхронный чат\code\acync-chat\chat project\client\transport.py", line 105, in connection_init
+    ans = get_message(self.transport)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Асинхронный чат\code\acync-chat\chat project\client\transport.py", line 20, in get_message
+    encoded_response = client.recv(1024)
+                       ^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+2023-07-08 20:48:47,239 INFO logs_decor.py Была вызвана функция arg_parser c параметрами (), {} в 2023-07-08 20:48:47 Вызов из модуля __main__. Вызов из функции arg_parser().Вызов из функции <module>
+2023-07-08 20:48:47,240 DEBUG client1.py Args loaded
+2023-07-08 20:48:55,212 DEBUG client1.py Using USERNAME = 123123, PASSWD = 1234.
+2023-07-08 20:48:55,212 INFO client1.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: 123123
+2023-07-08 20:48:55,628 DEBUG client1.py Keys sucsessfully loaded.
+2023-07-08 20:48:56,812 INFO transport.py Попытка подключения №1
+2023-07-08 20:48:56,812 DEBUG transport.py Connection established.
+2023-07-08 20:48:56,812 DEBUG transport.py Starting auth dialog.
+2023-07-08 20:48:56,820 DEBUG transport.py Passwd hash ready: b'cb46d7304f88bb54a6a76816929d92c0368fbbeb1d5f2bb724409a97fa4820ba75dfa6d6fc001236ef945e600ecfe128296426d6e763ec62ee4270a04cba610b'
+2023-07-08 20:48:56,820 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1688838536.820813, 'user': {'account_name': '123123', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxbFQX6/b1DWZk/UBmMQN\n+6TvVWRaysgkne4oX3PY5aeA22OwCin2c0B4xdAaeAZYNLtwlsshR3fwp9Mk/has\nI0Y0ou+nextvgPGYBWCfx9QyUnoLbRCZWIjvYtkDpU4r/vG2vyvDnz5gF4aIr4SI\nZ1QaM5H9aJrIx8TSA23CdUrsJT2M5RT5VlP6qgUubrvaF8eFiRMmcVcfEJV5BNtR\ntdl+hOxgzaxtkEFGVh2e3v9YoUK08xp8qKkKN6c8HS81XpWnM68XXWaujxoKnF8z\nMkboLiwM9vjoSAzhLNLcyW7SKskl0Mkj13EGUL2ADztW5cVZT03OGBnyvUJAapcA\neQIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-08 20:49:01,821 DEBUG transport.py Connection error.
+Traceback (most recent call last):
+  File "D:\GeekBrains\Асинхронный чат\code\acync-chat\chat project\client\transport.py", line 105, in connection_init
+    ans = get_message(self.transport)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Асинхронный чат\code\acync-chat\chat project\client\transport.py", line 20, in get_message
+    encoded_response = client.recv(1024)
+                       ^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
